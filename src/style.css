@@ -1,0 +1,78 @@
+body {
+  background-size: cover;
+  background: white;
+}
+.container {
+  background: linear-gradient(
+    rgb(216, 255, 239) 15%,
+    rgb(255, 214, 248) 100.7%
+  );
+  border: 1px solid;
+  border-radius: 20px;
+  margin: 20px auto;
+  max-width: 55%;
+  padding: 30px;
+}
+h1,
+h2,
+ul,
+em,
+p {
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  margin-top: 25px;
+}
+#date {
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.temperature {
+  font-size: 40px;
+}
+
+.sun-icon {
+  font-size: 60px;
+  padding-top: 15px;
+  padding-left: 30px;
+}
+.units {
+  font-size: 15px;
+  position: relative;
+  bottom: 16px;
+  display: inline-block;
+}
+
+#celcius-link {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  text-underline-position: none;
+  color: rgb(94, 93, 93);
+}
+#fahrenheit-link {
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  text-underline-position: none;
+  color: rgb(94, 93, 93);
+}
+
+p,
+em {
+  font-weight: bold;
+  font-size: 15px;
+}
+
+ul {
+  margin: 0 0 10px;
+  padding: 0;
+}
+
+ul {
+  font-size: 16px;
+  height: 19px;
+  line-height: 1;
+  list-style-type: none;
+}
